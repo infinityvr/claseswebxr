@@ -1,0 +1,11 @@
+Model Information:
+* title:	Taza
+* source:	https://sketchfab.com/3d-models/taza-68539b9bebcf42628f494b4cb6be2b25
+* author:	Cascada (https://sketchfab.com/gimenezestebanmariateresa)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Taza" (https://sketchfab.com/3d-models/taza-68539b9bebcf42628f494b4cb6be2b25) by Cascada (https://sketchfab.com/gimenezestebanmariateresa) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

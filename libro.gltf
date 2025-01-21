@@ -1,0 +1,348 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 94,
+      "max": [
+        1.570517897605896,
+        0.8445519208908081,
+        0.9869755506515503
+      ],
+      "min": [
+        -1.570517897605896,
+        -0.838193416595459,
+        -0.9993723630905151
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1128,
+      "componentType": 5126,
+      "count": 94,
+      "max": [
+        0.9997367858886719,
+        0.9620744585990906,
+        0.9998950958251953
+      ],
+      "min": [
+        -0.9997367858886719,
+        -0.9410406947135925,
+        -0.999090313911438
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 94,
+      "max": [
+        0.9997575879096985,
+        0.9998908638954163,
+        0.9956251978874207,
+        1.0
+      ],
+      "min": [
+        -0.27316197752952576,
+        -0.9731349945068359,
+        -0.8363524675369263,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 94,
+      "max": [
+        0.9943872094154358,
+        0.9913468360900879
+      ],
+      "min": [
+        0.0032930374145507813,
+        0.0027844191063195467
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 752,
+      "componentType": 5126,
+      "count": 94,
+      "max": [
+        0.9943872094154358,
+        0.9913468360900879
+      ],
+      "min": [
+        0.0032930374145507813,
+        0.0027844191063195467
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 216,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Design Factory (https://sketchfab.com/SrColmillo)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/libro-0e1b2ad0b24645e1a390a0b3e97f801a",
+      "title": "Libro"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 864,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1504,
+      "byteOffset": 864,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2256,
+      "byteOffset": 2368,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1504,
+      "byteOffset": 4624,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 6128,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/libro_diffuse.jpeg"
+    },
+    {
+      "uri": "textures/libro_specularGlossiness.png"
+    },
+    {
+      "uri": "textures/libro_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.7151295731707317,
+            0.7151295731707317,
+            0.7151295731707317,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      },
+      "name": "libro",
+      "normalTexture": {
+        "index": 2
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.002_libro_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "scene.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        5.0,
+        9.094414745401601e-16,
+        4.734252761533741e-16,
+        0.0,
+        -4.734252628657027e-16,
+        4.095760229673891,
+        -2.8678821700030976,
+        0.0,
+        -9.09441481457284e-16,
+        2.8678821700030976,
+        4.095760229673891,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Cube.002"
+    },
+    {
+      "mesh": 0,
+      "name": "Cube.002_libro_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        -0.6322380657315099,
+        -0.37765871922851146,
+        0.6764975388209183,
+        0.0,
+        -0.2578665613344392,
+        0.9259448643362521,
+        0.2759183661064837,
+        0.0,
+        -0.7306023985627418,
+        3.0531133177191805e-16,
+        -0.6828031452874022,
+        0.0,
+        22.620445251464844,
+        13.476824760437012,
+        -24.112106323242188,
+        1.0
+      ],
+      "name": "Camera"
+    },
+    {
+      "name": "Object_6"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

@@ -130,28 +130,14 @@
     }
   ],
   "buffers": [
-    {
-      "byteLength": 6128,
-      "uri": "scene.bin"
-    }
-  ],
-  "extensionsRequired": [
-    "KHR_materials_pbrSpecularGlossiness"
-  ],
-  "extensionsUsed": [
-    "KHR_materials_pbrSpecularGlossiness"
-  ],
-  "images": [
-    {
-      "uri": "textures/libro_diffuse.jpeg"
-    },
-    {
-      "uri": "textures/libro_specularGlossiness.png"
-    },
-    {
-      "uri": "textures/libro_normal.png"
-    }
-  ],
+  { "uri": "scene.bin" }
+],
+"images": [
+  { "uri": "textures/libro_normal.png" },
+  { "uri": "textures/libro_diffuse.jpeg" },
+  { "uri": "textures/libro_specularGlossiness.png" }
+]
+
   "materials": [
     {
       "doubleSided": true,
